@@ -9,7 +9,7 @@
 }
 
 body{
-    overflow-x: auto;
+    overflow: hidden;
     background: rgb(252, 233, 202);
 }
 
@@ -260,6 +260,11 @@ box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 
 
 @media only screen and (max-width: 768px) {
+    
+    body{
+        overflow-x: auto;
+    }
+    
     .logo {
         font-size: 24px;
         margin-left: 10px;
