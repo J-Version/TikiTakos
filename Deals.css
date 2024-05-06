@@ -9,7 +9,7 @@
 }
 
 body{
-    overflow: auto;
+    overflow: hidden;
     background: rgb(252, 233, 202);
 }
 
@@ -70,7 +70,7 @@ animation-delay: calc(.2s * var(--i));
 
 .home-content  h1{
 text-align: center;
-font-size: 55px;
+font-size: 85px;
 }
 
 
@@ -290,7 +290,7 @@ box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 }  
 
 .home-content h1{
-    font-size: 25px;
+    font-size: 65px;
 }
 
 .opt{
