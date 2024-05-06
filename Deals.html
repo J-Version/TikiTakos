@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Deals.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<header class="header">
+<a href="#" class="logo">Tiki Takos</a>
+
+<nav class="navbar">
+<a href="Home.html" style="--i:1">Home</a>
+<a href="Campaign.html" style="--i:2">Campaigns</a>
+<a href="Deals.html" style="--i:3"  class="active">Deals</a>
+<a href="About.html" style="--i:4">About Us</a>
+
+
+</nav>
+</header>
+
+<br>
+
+<div class="home-content">
+    <h1>Deals</h1>
+</div>
+
+<div class="col">
+    <div class="decrypt" style="--i:1">
+        <div class="content">
+        <h3> Baja Blast 15% Off</h3>
+        <p>A special drink is coming back to treat you with a discounted price! This deal will only be available until June 1, 2024.</p>
+         </div>
+         <button type="submit" class="btn" onclick="openPopup()"><b>Claim!</b></button>
+    </div>
+
+
+
+
+    <div class="decrypt" style="--i:4">
+        <div class="content">
+        <h3>Free Original Taco!</h3>
+        <p>Get an Original Taco for free, if this deal is claimed and an order is placed above P350! This deal will be available until May 10,2024.</p>
+        </div>
+        <button type="submit" class="btn" onclick="openPopup()"><b>Claim!</b></button>
+    </div>
+    <div class="popup" id="popup">
+        <img src="Check.png">
+        <h2>Claimed!</h2>
+        <p>Present this to the cashier for your deal to be claimed!</p>
+        <button type="button" onclick="closePopup()"><b>OK!</b></button>
+    </div>
+</div>
+
+<script>
+
+let popup = document.getElementById ("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup")
+}
+
+function closePopup(){
+    popup.classList.remove("open-popup")
+}
+
+
+</script>
+</body>
+</html>
