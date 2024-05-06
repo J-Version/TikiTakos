@@ -9,7 +9,7 @@
 }
 
 body{
-    overflow: auto;
+    overflow: hidden;
     background: rgb(252, 233, 202);
 }
 
