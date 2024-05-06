@@ -262,7 +262,7 @@ box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
 @media only screen and (max-width: 768px) {
     
     body{
-        overflow-x: auto;
+        overflow: auto;
     }
     
     .logo {
